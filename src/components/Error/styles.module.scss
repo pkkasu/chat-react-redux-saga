@@ -1,0 +1,33 @@
+.notification {
+  margin: 15px;
+  border-radius: 4px;
+  padding: 15px 16px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  opacity: 0.9;
+  background-color: #C3534F;
+
+  &__sign {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #C3534F; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  &__desc {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  &__title {
+    font-weight: 700;
+  }
+}

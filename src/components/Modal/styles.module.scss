@@ -1,0 +1,64 @@
+.modalOverlay {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #090b3e;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  &__header,
+  &__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  &__title {
+    font-weight: bold;
+    color: #090b3e;
+    font-size: 22px;
+  }
+  &__close {
+    color: #fff;
+    cursor: pointer;
+    background-color: #C3534F;
+    border: 1px solid #C3534F;
+  }
+  &__button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #090b3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: #f6f7ff;
+    text-transform: uppercase;
+    color: #090b3e;
+  }
+  &__field {
+    resize: none;
+    width: 100%;
+    background-color: #f6f7ff;
+    border-radius: 6px;
+    border: 1px solid #090b3e;
+    padding: 10px;
+    outline: none;
+    height: 70px;
+  }
+}
