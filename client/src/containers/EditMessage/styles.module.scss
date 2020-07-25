@@ -1,0 +1,43 @@
+.modal {
+  padding: 20px;
+  background-color: #fff;
+  height: 83%;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  &__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+  }
+  &__close {
+    color: #fff;
+    cursor: pointer;
+    background-color: #C3534F;
+    border: 1px solid #C3534F;
+  }
+  &__button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #090b3e;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: #f6f7ff;
+    text-transform: uppercase;
+    color: #090b3e;
+  }
+  &__field {
+    resize: none;
+    width: 100%;
+    background-color: #f6f7ff;
+    border-radius: 6px;
+    border: 1px solid #090b3e;
+    padding: 10px;
+    outline: none;
+    height: 70px;
+  }
+}

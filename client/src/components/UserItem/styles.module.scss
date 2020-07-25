@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 25px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.controls {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  &__trash {
+    cursor: pointer;
+  }
+  &__pencil {
+    cursor: pointer;
+    color: gray;
+  }
+}

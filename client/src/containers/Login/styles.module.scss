@@ -1,0 +1,28 @@
+.container {
+  height: 83%;
+  width: 40%;
+  min-width: 300px;
+  padding: 10% 0;
+  margin: 0 auto;
+}
+
+.loginForm {
+  padding: 10px 25px;
+  border: 1px solid #090b3e;
+  border-radius: 6px;
+  background-color: #f6f7ff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  &__field {
+    width: 250px;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid #090b3e;
+    border-radius: 6px;
+    outline: none;
+  }
+}
