@@ -1,8 +1,7 @@
-import { createStore, applyMiddleware, combineReducers } from 'redux';
-import { composeWithDevTools as compose } from 'redux-devtools-extension';
+import { createStore, applyMiddleware, combineReducers, compose } from 'redux';
+// import { composeWithDevTools as compose } from 'redux-devtools-extension';
 import createSagaMiddleware from 'redux-saga';
 import rootSaga from './index.saga';
-// import { compose } from 'compose';
 import chatReducer from '../containers/Chat/reducer';
 import userReducer from '../containers/Admin/reducer';
 import loginReducer from '../containers/Login/reducer';
